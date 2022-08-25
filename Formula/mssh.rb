@@ -8,6 +8,12 @@ class Mssh < Formula
   license "MIT"
   head "https://github.com/nick-f/mssh.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/nick-f/homebrew-labs/releases/download/mssh-2022.08.24"
+    sha256 cellar: :any_skip_relocation, big_sur:      "e4942dfed732966223db6dabdcc1d0a77034ca18fc776c2bfc712c030cb0451d"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "08db475c7f954e65b626f4b5eb425a8d8f64384569da616f2e7d16b9fb477808"
+  end
+
   depends_on "tmux"
 
   def install
