@@ -1,8 +1,8 @@
 class T < Formula
   desc "Search project directories and open a new Tmux session for the selected project"
   homepage "https://github.com/nick-f/t"
-  url "https://github.com/nick-f/t/archive/refs/tags/v1.0.tar.gz"
-  sha256 "dd131d0fe10eb5bc3b313d1edc3dee119726d030f28bca7c2564f43cc1d99fc8"
+  url "https://github.com/nick-f/t/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "7eb5cdd92c59437d70b3dedf54a5e66ddc97e56947dbd6c805a5ad07932262e0"
   license "MIT"
 
   depends_on "bash"
