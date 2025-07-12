@@ -14,6 +14,6 @@ class T < Formula
   end
 
   test do
-    system "#{bin}/t --help"
+    system "#{bin}/t", "--help"
   end
 end
