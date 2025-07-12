@@ -1,3 +1,4 @@
+name: bump outdated formulae
 on:
   workflow_dispatch:
 
@@ -11,3 +12,4 @@ jobs:
           token: ${{secrets.GITHUB_TOKEN}}
           no_fork: true
           tap: nick-f/homebrew-labs
+          livecheck: true
